@@ -1,0 +1,9 @@
+wp-config.php
+.htaccess
+node_modules/
+.env
+.htpasswd
+*wp-config.php
+*.htaccess
+*.DS_Store
+wp-content/uploads/*
