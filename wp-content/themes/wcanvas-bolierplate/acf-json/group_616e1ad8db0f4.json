@@ -1,0 +1,78 @@
+{
+    "key": "group_616e1ad8db0f4",
+    "title": "Page Header Post",
+    "fields": [
+        {
+            "key": "field_616e1ad8e1654",
+            "label": "Hero",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 1,
+            "endpoint": 0
+        },
+        {
+            "key": "field_616e1ad8e50e3",
+            "label": "Hero",
+            "name": "hero",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_616e1b13e0b45"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "blog"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "case-study"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": "This should contain all masthead options for at least pages.  Other post types may or may not use this.",
+    "show_in_graphql": 1,
+    "graphql_field_name": "pageHeader",
+    "map_graphql_types_from_location_rules": 1,
+    "graphql_types": [
+        "CptCaseStudy",
+        "Post"
+    ],
+    "modified": 1634606136
+}

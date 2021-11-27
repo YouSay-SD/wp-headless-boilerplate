@@ -1,6 +1,6 @@
 {
     "key": "group_60a2d1ea60d1f",
-    "title": "Page: Flexible content",
+    "title": "Page: Flexible Content",
     "fields": [
         {
             "key": "field_60a2d1f0fbe08",
@@ -19,12 +19,43 @@
             "layouts": {
                 "layout_60a2d20d8e608": {
                     "key": "layout_60a2d20d8e608",
+                    "name": "hero",
+                    "label": "Hero",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60a64a772240c",
+                            "label": "Hero",
+                            "name": "hero",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5f7c8777214a7"
+                            ],
+                            "display": "seamless",
+                            "layout": "",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_616371aca0ea5": {
+                    "key": "layout_616371aca0ea5",
                     "name": "image_gallery",
                     "label": "Image Gallery",
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_60a64a772240c",
+                            "key": "field_616371aca0ea6",
                             "label": "Image Gallery",
                             "name": "image_gallery",
                             "type": "clone",
@@ -143,6 +174,69 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_615fcc078c7eb": {
+                    "key": "layout_615fcc078c7eb",
+                    "name": "left_right",
+                    "label": "Left\/Right",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_615fcc128c7ec",
+                            "label": "Left\/Right",
+                            "name": "left_right",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "show_in_graphql": 1,
+                            "clone": [
+                                "group_5e4452cde62aa"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6160e092e0c74": {
+                    "key": "layout_6160e092e0c74",
+                    "name": "archive",
+                    "label": "Archive",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6160e092e0c75",
+                            "label": "Archive",
+                            "name": "archive",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5f85c0ed8c9a9"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Row",
@@ -173,5 +267,5 @@
     "graphql_types": [
         "Page"
     ],
-    "modified": 1630645785
+    "modified": 1633907146
 }

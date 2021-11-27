@@ -1,10 +1,10 @@
 {
-    "key": "group_navbar5487d038",
-    "title": "Theme Setting: Header",
+    "key": "group_61621e25b8550",
+    "title": "Case Study Details",
     "fields": [
         {
-            "key": "field_5f5ac9f064a30",
-            "label": "Logo",
+            "key": "field_61621e25be694",
+            "label": "Content",
             "name": "",
             "type": "tab",
             "instructions": "",
@@ -15,12 +15,13 @@
                 "class": "",
                 "id": ""
             },
+            "show_in_graphql": 1,
             "placement": "left",
             "endpoint": 0
         },
         {
-            "key": "field_616b60ef0a15f",
-            "label": "Logo",
+            "key": "field_61621e25c210a",
+            "label": "Image",
             "name": "image",
             "type": "image",
             "instructions": "",
@@ -42,14 +43,36 @@
             "max_height": "",
             "max_size": "",
             "mime_types": ""
+        },
+        {
+            "key": "field_61621e25c5b8d",
+            "label": "Description",
+            "name": "description",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "show_in_graphql": 1,
+            "clone": [
+                "group_61319c108eb9e"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
         }
     ],
     "location": [
         [
             {
-                "param": "options_page",
+                "param": "post_type",
                 "operator": "==",
-                "value": "acf-options-header"
+                "value": "case-study"
             }
         ]
     ],
@@ -62,8 +85,8 @@
     "active": true,
     "description": "",
     "show_in_graphql": 1,
-    "graphql_field_name": "header",
+    "graphql_field_name": "acf",
     "map_graphql_types_from_location_rules": 0,
     "graphql_types": "",
-    "modified": 1634427129
+    "modified": 1633820221
 }

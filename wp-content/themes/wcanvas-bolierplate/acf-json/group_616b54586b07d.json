@@ -1,26 +1,10 @@
 {
-    "key": "group_navbar5487d038",
-    "title": "Theme Setting: Header",
+    "key": "group_616b54586b07d",
+    "title": "Support: Image",
     "fields": [
         {
-            "key": "field_5f5ac9f064a30",
-            "label": "Logo",
-            "name": "",
-            "type": "tab",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "placement": "left",
-            "endpoint": 0
-        },
-        {
-            "key": "field_616b60ef0a15f",
-            "label": "Logo",
+            "key": "field_616b545d376b9",
+            "label": "Image",
             "name": "image",
             "type": "image",
             "instructions": "",
@@ -47,9 +31,14 @@
     "location": [
         [
             {
-                "param": "options_page",
+                "param": "post_type",
                 "operator": "==",
-                "value": "acf-options-header"
+                "value": "post"
+            },
+            {
+                "param": "post_type",
+                "operator": "!=",
+                "value": "post"
             }
         ]
     ],
@@ -61,9 +50,9 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "show_in_graphql": 1,
-    "graphql_field_name": "header",
+    "show_in_graphql": 0,
+    "graphql_field_name": "support:Image",
     "map_graphql_types_from_location_rules": 0,
     "graphql_types": "",
-    "modified": 1634427129
+    "modified": 1634423926
 }
